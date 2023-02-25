@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "227983887323",
+    "project_id": "brush-it-ed778",
+    "storage_bucket": "brush-it-ed778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227983887323:android:e03c8cb854ac95bfd675fe",
+        "android_client_info": {
+          "package_name": "com.shubhamtripz.brushit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227983887323-di6u70aa3bce0gdlq98i806h7esj675e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_hqWHTl3v9oWG_KJXdapGwJH1poG0PB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227983887323-di6u70aa3bce0gdlq98i806h7esj675e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

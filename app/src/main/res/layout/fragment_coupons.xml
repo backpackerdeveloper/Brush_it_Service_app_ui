@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".UI.CouponsFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coupons Available"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/colorsecondary"
+        app:cardCornerRadius="18dp"
+        android:elevation="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10% Off On All products"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/off_50"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
